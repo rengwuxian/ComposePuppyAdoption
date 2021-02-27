@@ -23,22 +23,22 @@ import com.example.androiddevchallenge.ui.Home
 import com.example.androiddevchallenge.ui.theme.MyTheme
 
 class MainActivity : AppCompatActivity() {
-  private val viewModel by viewModels<MainViewModel>()
+    private val viewModel by viewModels<MainViewModel>()
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    setContent {
-      MyTheme {
-        Home()
-      }
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            MyTheme {
+                Home()
+            }
+        }
     }
-  }
 
-  override fun onBackPressed() {
-    if (viewModel.currentDog != null) {
-      viewModel.closeDog()
-    } else {
-      super.onBackPressed()
+    override fun onBackPressed() {
+        if (viewModel.currentDog != null) {
+            viewModel.closeDog()
+        } else {
+            super.onBackPressed()
+        }
     }
-  }
 }
