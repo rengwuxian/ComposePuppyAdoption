@@ -19,13 +19,6 @@ import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.material.Scaffold
-import androidx.compose.material.Text
-import androidx.compose.material.TopAppBar
-import androidx.compose.runtime.Composable
-import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.androiddevchallenge.ui.DogDetails
-import com.example.androiddevchallenge.ui.DogList
 import com.example.androiddevchallenge.ui.Home
 import com.example.androiddevchallenge.ui.theme.MyTheme
 

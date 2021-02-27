@@ -2,13 +2,10 @@ package com.example.androiddevchallenge.ui
 
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.androiddevchallenge.MainViewModel
 import kotlinx.coroutines.launch
-import java.lang.reflect.Modifier
 
 @Composable
 fun Home() {
